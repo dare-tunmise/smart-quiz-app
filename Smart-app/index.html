@@ -1,0 +1,473 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nuller Quiz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <!-- top sction -->
+    <div class="intro py-3 bg-white text-center">
+        <div class="container">
+            <h2 class="text-primary display-3 my-4">SMART Quiz</h2>
+        </div>
+    </div>
+
+    <!-- result section -->
+    <div class="result py-4 d-none bg-light text-center">
+
+        <div class="container lead">
+            <p>You are <span class="text-primary display-4 p-3">0%</span> Smart!</p>
+        </div>
+
+    </div>
+
+    <!-- quiz section -->
+    <div class="quiz py-4 bg-primary">
+        <div class="container">
+            <h2 class="my-5 text-white">On with the questions...</h2>
+
+            <form class="quiz-form text-light">
+                <div class="my-5">
+                    <p class="lead font-weight-normal">1. What is the capital of Finland?
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="A">
+                        <label class="form-check-label">Rabat</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="B">
+                        <label class="form-check-label">Mushow</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="C">
+                        <label class="form-check-label">Nileh</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q1" value="D">
+                        <label class="form-check-label">Helsinki</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">2.In which decade was Madonna born?</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="A">
+                        <label class="form-check-label">1950s</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="B">
+                        <label class="form-check-label">1960s</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="C">
+                        <label class="form-check-label">1970s</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q2" value="D">
+                        <label class="form-check-label">1980s</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">3. Who invented the World Wide Web in 1990?</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="A">
+                        <label class="form-check-label">Elon Musk</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="B">
+                        <label class="form-check-label">Jeff Bezoz</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="C">
+                        <label class="form-check-label">Tim Berners-Lee
+                        </label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q3" value="D">
+                        <label class="form-check-label">Warren Buffet</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">4. Who painted the Mona Lisa?</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="A">
+                        <label class="form-check-label">Leonardo da Vinci</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="B">
+                        <label class="form-check-label">Vincent van Gogh</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="C">
+                        <label class="form-check-label">Dan Brown</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q4" value="D">
+                        <label class="form-check-label">Leo Tolstoy</label>
+                    </div>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">5. What is the largest country in the world? </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q5" value="A">
+                        <label class="form-check-label">Nigeria</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q5" value="B">
+                        <label class="form-check-label">China</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q5" value="C">
+                        <label class="form-check-label">India</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q5" value="D">
+                        <label class="form-check-label">Russia</label>
+                    </div>
+                </div>
+                <div class="my-5">
+                    <p class="lead font-weight-normal">6. What is Scooby Doo's full name?</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q6" value="A">
+                        <label class="form-check-label">White Doo</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q6" value="B">
+                        <label class="form-check-label">Scoobert Doo
+                        </label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q6" value="C">
+                        <label class="form-check-label">Johnny Doo</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q6" value="D">
+                        <label class="form-check-label">Ralph Doo</label>
+                    </div>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">7. What does the AC button on a calculator stand for?</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q7" value="A">
+                        <label class="form-check-label">All Cleared</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q7" value="B">
+                        <label class="form-check-label">All Cancelled
+                        </label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q7" value="C">
+                        <label class="form-check-label">All Computed</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q7" value="D">
+                        <label class="form-check-label">All Compounded</label>
+                    </div>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">8. Who is the current Miss World?</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q8" value="A">
+                        <label class="form-check-label">Kiki Håkansson</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q8" value="B">
+                        <label class="form-check-label">Denise Perrier
+                        </label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q8" value="C">
+                        <label class="form-check-label">Karolina Bielawska</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q8" value="D">
+                        <label class="form-check-label">Toni-Ann Singh</label>
+                    </div>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">9.To a single decimal point, many kilometers in a mile?</p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q9" value="A">
+                        <label class="form-check-label">2.6km</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q9" value="B">
+                        <label class="form-check-label">3.2km
+                        </label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q9" value="C">
+                        <label class="form-check-label">2.4km</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q9" value="D">
+                        <label class="form-check-label">1.6km</label>
+                    </div>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">10. What's a baby rabbit called?
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q10" value="A">
+                        <label class="form-check-label">A kit</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q10" value="B">
+                        <label class="form-check-label"> A kitten
+                        </label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q10" value="C">
+                        <label class="form-check-label">A puppy</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q10" value="D">
+                        <label class="form-check-label">A calf</label>
+                    </div>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">11. Which novel begins, "It was a bright cold day in April, and the clocks were striking thirteen."?
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q11" value="A">
+                        <label class="form-check-label">The Old Man and the Sea</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q11" value="B">
+                        <label class="form-check-label"> Animal Farm
+                        </label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q11" value="C">
+                        <label class="form-check-label">1984</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q11" value="D">
+                        <label class="form-check-label">Lord of the Flies</label>
+                    </div>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">12. What star sign would someone born on August 24th be?
+
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q12" value="A">
+                        <label class="form-check-label">Aquarius</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q12" value="B">
+                        <label class="form-check-label"> Gemini
+                        </label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q12" value="C">
+                        <label class="form-check-label">Virgo </label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q12" value="D">
+                        <label class="form-check-label">Scorpio</label>
+                    </div>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">13. What does He stand for on the periodic table?
+
+
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q13" value="A">
+                        <label class="form-check-label">Helium</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q13" value="B">
+                        <label class="form-check-label"> Hydrogen
+                        </label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q13" value="C">
+                        <label class="form-check-label"> Iron</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q13" value="D">
+                        <label class="form-check-label">Chlorine</label>
+                    </div>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">14. How many minutes in a game of rugby league?
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q14" value="A">
+                        <label class="form-check-label">60 minutes</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q14" value="B">
+                        <label class="form-check-label">80 minutes</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q14" value="C">
+                        <label class="form-check-label"> 70 minutes</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q14" value="D">
+                        <label class="form-check-label">90 minutes</label>
+                    </div>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">15. What is the smallest country in the world?
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q15" value="A">
+                        <label class="form-check-label">Canada</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q15" value="B">
+                        <label class="form-check-label">Brazil</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q15" value="C">
+                        <label class="form-check-label">South Africa</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q15" value="D">
+                        <label class="form-check-label">Tanzania</label>
+                    </div>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">16. What does a Geiger Counter measure?
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q16" value="A">
+                        <label class="form-check-label">Precipiration</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q16" value="B">
+                        <label class="form-check-label">Insulation</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q16" value="C">
+                        <label class="form-check-label">Conduction</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q16" value="D">
+                        <label class="form-check-label">Radiation</label>
+                    </div>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">17. Including the recruiter round, how many games were there in Squid Game?
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q17" value="A">
+                        <label class="form-check-label">Sixteen</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q17" value="B">
+                        <label class="form-check-label">Twenty</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q17" value="C">
+                        <label class="form-check-label">Six</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q17" value="D">
+                        <label class="form-check-label">Eighteen</label>
+                    </div>
+                </div>
+
+                
+                <div class="my-5">
+                    <p class="lead font-weight-normal">18. What grain is the Japanese spirit Sake made from?
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q18" value="A">
+                        <label class="form-check-label">Rice</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q18" value="B">
+                        <label class="form-check-label">Wheat</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q18" value="C">
+                        <label class="form-check-label">Soya</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q18" value="D">
+                        <label class="form-check-label">Sunflower</label>
+                    </div>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">19. How many sides does a heptadecagon have?
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q19" value="A">
+                        <label class="form-check-label">Eighteen</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q19" value="B">
+                        <label class="form-check-label">Seventeen</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q19" value="C">
+                        <label class="form-check-label">Twelve</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q19" value="D">
+                        <label class="form-check-label">Nineteen</label>
+                    </div>
+                </div>
+
+                <div class="my-5">
+                    <p class="lead font-weight-normal">20. Which supermodel was born in Streatham, London?
+                    </p>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q20" value="A">
+                        <label class="form-check-label">Tyra Banks</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q20" value="B">
+                        <label class="form-check-label">Karlie Kloss</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q20" value="C">
+                        <label class="form-check-label">Naomi Campbell</label>
+                    </div>
+                    <div class="form-check my-2 text-white-50">
+                        <input type="radio" name="q20" value="D">
+                        <label class="form-check-label">Miranda Kerr</label>
+                    </div>
+                </div>
+
+                <!-- submit part -->
+                <div class="text-center">
+                    <input type="submit" class="btn btn-light">
+                </div>
+            </form>
+
+            <div class= "attribution">
+                Created by <a href="https://daretunmise.netlify.app/">Dare Tunmise</a>.
+              </div>
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
